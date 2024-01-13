@@ -1,0 +1,87 @@
+.centre{
+    text-align: center;
+    text-decoration: wavy;
+    color: white;
+    transition: transform 0.5s ease;
+}
+
+div{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+}
+iframe{
+        border: solid 10px white;
+        padding:2px;
+        transition: transform 0.5s ease;
+} 
+
+.button-container{
+        text-align: center;
+        align-items: center;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-decoration: wavy;
+        background-color: #4CAF50;
+        border-radius: 10px;
+        transition: transform 0.5s ease;
+} 
+
+.move {
+        transform: translate(-250px,50px);
+}
+
+
+.list-viewer {
+        display: none;
+        width: 320px;
+        border: 1px solid white;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        background-color: white;
+        transition: transform 0.1s ease;
+}
+
+.list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-size-adjust: 100px;
+        text-decoration: wavy;
+        text-shadow: #2196f3;
+        font-size: large;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.list-item {
+        padding: 15px;
+        background-color: #2fc1de;
+        border-bottom: 1px solid #eee;
+        transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+        cursor: pointer;
+}
+
+.list-item:hover {
+        background-color: #2196f3;
+        box-shadow: 0 0 10px rgba(33, 150, 243, 0.5), 0 0 20px rgba(33, 150, 243, 0.3);
+        transform: scale(1.02);
+}
+
+.visible{
+        display: block;
+        transform: translate(790px, -250px);
+}
+
+.disable{
+        display: none;
+}
+video{
+        display:none;
+}
+
+.visible2{
+        display: block;
+        transform: translate(-250px,50px);
+}
